@@ -35,8 +35,9 @@
   ],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@contentstack/delivery-sdk": "^4.8.0"
+  "dependencies": {},
+  "peerDependencies": {
+    "@contentstack/delivery-sdk": "^4.0.0"
   },
   "devDependencies": {
     "@contentstack/personalize-edge-sdk": "^1.0.15",
