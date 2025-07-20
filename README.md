@@ -73,8 +73,8 @@ npm run changed
 npm run diff
 
 # Version and publish packages
-npm run version
-npm run publish
+npm run version --conventional-commits --no-push --yes
+npm run publish from-git
 ```
 
 ## CLI Usage
