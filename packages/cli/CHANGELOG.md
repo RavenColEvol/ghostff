@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/RavenColEvol/ghostff/compare/@lamkoti/ghostff-cli@1.0.3...@lamkoti/ghostff-cli@1.0.4) (2025-07-20)
+
+**Note:** Version bump only for package @lamkoti/ghostff-cli
+
+
+
+
+
 ## [1.0.3](https://github.com/RavenColEvol/ghostff/compare/@lamkoti/ghostff-cli@1.0.2...@lamkoti/ghostff-cli@1.0.3) (2025-07-20)
 
 

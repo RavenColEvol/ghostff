@@ -1,6 +1,6 @@
 {
   "name": "@lamkoti/ghostff-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Command line interface for fetching data from contentstack delivery SDK",
   "type": "module",
   "main": "./dist/cjs/index.js",
