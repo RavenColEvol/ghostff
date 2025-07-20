@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 
+import * as dotenv from 'dotenv';
+import * as fs from 'fs';
+import * as path from 'path';
+
 import { Region } from '@contentstack/delivery-sdk';
 import { FeatureFlag, fetchFeatureFlags } from '@lamkoti/ghostff-core';
 import chalk from 'chalk';
 import { Command } from 'commander';
-import * as dotenv from 'dotenv';
-import * as fs from 'fs';
-import * as path from 'path';
 
 const program = new Command();
 
