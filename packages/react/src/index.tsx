@@ -1,16 +1,20 @@
 import React from "react";
-import { FeatureFlag, fetchFeatureFlags as fetchFeatureFlagsInternal, FetchFeatureFlagsConfig, initializeFeatureFlags, isFeatureEnabled } from "@lamkoti/ghostff-core";
+import { 
+  FeatureFlag, 
+  fetchFeatureFlags as fetchFeatureFlagsInternal, 
+  FetchFeatureFlagsConfig, 
+  initializeFeatureFlags, 
+  isFeatureEnabled 
+} from "@lamkoti/ghostff-core";
 import { create } from "zustand";
 
 const useStore = create<{
   flags: FeatureFlag[];
-  setFlags: (flags: FeatureFlag[]) => void;
 }>((set) => ({
   flags: [],
-  setFlags: (flags: FeatureFlag[]) => set({ flags }),
 }));
 
-export const setDefaultFlags = (flags: FeatureFlag[]) => {
+const setDefaultFlags = (flags: FeatureFlag[]) => {
   initializeFeatureFlags(flags);
   useStore.setState({ flags });
 }
@@ -19,7 +23,7 @@ interface FeatureEnabledProps {
   uid: string;
   children: React.ReactNode;
 }
-export const FeatureEnabled = ({
+const FeatureEnabled = ({
   uid,
   children,
 }: FeatureEnabledProps) => {
@@ -29,7 +33,7 @@ export const FeatureEnabled = ({
 }
 
 
-export const fetchFeatureFlags = async (config: FetchFeatureFlagsConfig) => {
+const fetchFeatureFlags = async (config: FetchFeatureFlagsConfig) => {
   try {
     const flags = await fetchFeatureFlagsInternal(config);
     initializeFeatureFlags(flags);
@@ -37,4 +41,11 @@ export const fetchFeatureFlags = async (config: FetchFeatureFlagsConfig) => {
   } catch (error) {
     console.error('Error fetching feature flags', error);
   }
+}
+
+export {
+  FeatureEnabled,
+  fetchFeatureFlags,
+  setDefaultFlags,
+  isFeatureEnabled,
 }
