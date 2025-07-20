@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/RavenColEvol/ghostff/compare/@lamkoti/ghostff-cli@1.0.2...@lamkoti/ghostff-cli@1.0.3) (2025-07-20)
+
+
+### Bug Fixes
+
+* naming from ghostff to lamkoti/ghostff ([e846110](https://github.com/RavenColEvol/ghostff/commit/e8461104bad8e6b05818d6a3c799a56cb6ee3cba))
+
+
+
+
+
 ## 1.0.2 (2025-07-20)
 
 
