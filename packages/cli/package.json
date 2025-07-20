@@ -1,5 +1,5 @@
 {
-  "name": "@ghostff/cli",
+  "name": "@lamkoti/ghostff-cli",
   "version": "1.0.1",
   "description": "Command line interface for fetching data from contentstack delivery SDK",
   "type": "module",
@@ -19,6 +19,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc -p tsconfig.json",

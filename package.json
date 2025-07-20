@@ -1,5 +1,5 @@
 {
-  "name": "ghostff",
+  "name": "lamkoti-ghostff",
   "version": "1.0.0",
   "description": "Monorepo for GhostFF packages - Core, CLI, and React components for Contentstack",
   "private": true,
