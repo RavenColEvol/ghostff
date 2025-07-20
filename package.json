@@ -1,0 +1,30 @@
+{
+  "name": "ghostff",
+  "version": "1.0.0",
+  "description": "Monorepo for GhostFF packages - Core, CLI, and React components for Contentstack",
+  "private": true,
+  "type": "commonjs",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "dev": "npm run build && lerna watch -- npm run build",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "clean": "lerna run clean",
+    "install:all": "lerna bootstrap",
+    "publish": "lerna publish",
+    "version": "lerna version",
+    "changed": "lerna changed",
+    "diff": "lerna diff"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  }
+}
