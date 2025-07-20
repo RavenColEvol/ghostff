@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.6](https://github.com/RavenColEvol/ghostff/compare/@lamkoti/ghostff-react@1.0.5...@lamkoti/ghostff-react@1.0.6) (2025-07-20)
+
+
+### Bug Fixes
+
+* import of react to include isFeatureEnabled ([19c2d0a](https://github.com/RavenColEvol/ghostff/commit/19c2d0a694632ea3bf329fde637d501569966702))
+
+
+
+
+
 ## [1.0.5](https://github.com/RavenColEvol/ghostff/compare/@lamkoti/ghostff-react@1.0.4...@lamkoti/ghostff-react@1.0.5) (2025-07-20)
 
 **Note:** Version bump only for package @lamkoti/ghostff-react

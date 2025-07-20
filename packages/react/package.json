@@ -1,6 +1,6 @@
 {
   "name": "@lamkoti/ghostff-react",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React components for fetching data from contentstack delivery SDK",
   "type": "module",
   "main": "./dist/cjs/index.js",
