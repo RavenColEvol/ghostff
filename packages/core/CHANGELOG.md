@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/RavenColEvol/ghostff/compare/@lamkoti/ghostff-core@1.0.3...@lamkoti/ghostff-core@1.0.4) (2025-07-20)
+
+
+### Bug Fixes
+
+* removed delivery-sdk from dependency to peer-dependency ([be90252](https://github.com/RavenColEvol/ghostff/commit/be90252567b094519e0745265db30e7adb2dc1ee))
+
+
+
+
+
 ## [1.0.3](https://github.com/RavenColEvol/ghostff/compare/@lamkoti/ghostff-core@1.0.2...@lamkoti/ghostff-core@1.0.3) (2025-07-20)
 
 
