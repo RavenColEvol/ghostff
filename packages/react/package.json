@@ -1,6 +1,6 @@
 {
   "name": "@ghostff/react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React components for fetching data from contentstack delivery SDK",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -38,7 +38,7 @@
     "react-dom": "^18.0.0"
   },
   "dependencies": {
-    "@ghostff/core": "*",
+    "@ghostff/core": "^1.0.1",
     "zustand": "^5.0.6"
   },
   "devDependencies": {
