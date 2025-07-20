@@ -4,9 +4,9 @@ A monorepo for GhostFF packages - Core, CLI, and React components for Contentsta
 
 ## Packages
 
-- **@ghostff/core**: Core package for fetching feature flags from Contentstack
-- **@ghostff/cli**: Command line interface for managing feature flags
-- **@ghostff/react**: React components and hooks for feature flags
+- **@lamkoti/ghostff-core**: Core package for fetching feature flags from Contentstack
+- **@lamkoti/ghostff-cli**: Command line interface for managing feature flags
+- **@lamkoti/ghostff-react**: React components and hooks for feature flags
 
 ## Module Support
 
@@ -136,7 +136,7 @@ The core package provides the main functionality for fetching and managing featu
 
 ### ESM Usage
 ```typescript
-import { fetchFeatureFlags, isFeatureEnabled } from '@ghostff/core';
+import { fetchFeatureFlags, isFeatureEnabled } from '@lamkoti/ghostff-core';
 
 // Fetch feature flags from Contentstack
 const flags = await fetchFeatureFlags({
@@ -153,7 +153,7 @@ const isEnabled = isFeatureEnabled('feature-flag-uid');
 
 ### CommonJS Usage
 ```javascript
-const { fetchFeatureFlags, isFeatureEnabled } = require('@ghostff/core');
+const { fetchFeatureFlags, isFeatureEnabled } = require('@lamkoti/ghostff-core');
 
 // Fetch feature flags from Contentstack
 const flags = await fetchFeatureFlags({
@@ -174,7 +174,7 @@ The React package provides components and hooks for using feature flags in React
 
 ### ESM Usage
 ```typescript
-import { useFeatureFlag } from '@ghostff/react';
+import { useFeatureFlag } from '@lamkoti/ghostff-react';
 
 function MyComponent() {
   const isEnabled = useFeatureFlag('feature-flag-uid');
@@ -185,7 +185,7 @@ function MyComponent() {
 
 ### CommonJS Usage
 ```javascript
-const { FeatureEnabled } = require('@ghostff/react');
+const { FeatureEnabled } = require('@lamkoti/ghostff-react');
 
 function MyComponent() {
   return (

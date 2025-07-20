@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { Region } from '@contentstack/delivery-sdk';
-import { FeatureFlag, fetchFeatureFlags } from '@ghostff/core';
+import { FeatureFlag, fetchFeatureFlags } from '@lamkoti/ghostff-core';
 import chalk from 'chalk';
 import { Command } from 'commander';
 import * as dotenv from 'dotenv';

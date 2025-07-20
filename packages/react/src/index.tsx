@@ -1,4 +1,4 @@
-import { FeatureFlag, fetchFeatureFlags as fetchFeatureFlagsInternal, FetchFeatureFlagsConfig, initializeFeatureFlags, isFeatureEnabled } from "@ghostff/core";
+import { FeatureFlag, fetchFeatureFlags as fetchFeatureFlagsInternal, FetchFeatureFlagsConfig, initializeFeatureFlags, isFeatureEnabled } from "@lamkoti/ghostff-core";
 import React from "react";
 import { create } from "zustand";
 

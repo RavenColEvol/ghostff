@@ -16,4 +16,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 1.0.1 (2025-07-20)
 
-**Note:** Version bump only for package @ghostff/cli
+**Note:** Version bump only for package @lamkoti/ghostff-cli
