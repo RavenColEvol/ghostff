@@ -14,7 +14,7 @@
     "lint": "lerna run lint",
     "clean": "lerna run clean",
     "install:all": "lerna bootstrap",
-    "publish": "lerna publish",
+    "publish": "npm run build && lerna publish",
     "version": "lerna version",
     "changed": "lerna changed",
     "diff": "lerna diff"
